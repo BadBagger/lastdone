@@ -1,0 +1,393 @@
+{
+  "format": "com.smithware.lastdone.backup",
+  "version": 1,
+  "categories": [
+    {
+      "id": 1,
+      "name": "Home",
+      "icon": "⌂",
+      "color": 4284709714,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 2,
+      "name": "Cleaning",
+      "icon": "✦",
+      "color": 4291066437,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 3,
+      "name": "Maintenance",
+      "icon": "⚙",
+      "color": 4288314191,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 4,
+      "name": "Vehicle",
+      "icon": "◆",
+      "color": 4283789932,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 5,
+      "name": "Health",
+      "icon": "♥",
+      "color": 4284709714,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 6,
+      "name": "Dental",
+      "icon": "◉",
+      "color": 4291066437,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 7,
+      "name": "Personal care",
+      "icon": "⌂",
+      "color": 4288314191,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 8,
+      "name": "Family",
+      "icon": "✦",
+      "color": 4283789932,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 9,
+      "name": "Relationships",
+      "icon": "⚙",
+      "color": 4284709714,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 10,
+      "name": "Pets",
+      "icon": "◆",
+      "color": 4291066437,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 11,
+      "name": "Technology",
+      "icon": "♥",
+      "color": 4288314191,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 12,
+      "name": "Finance",
+      "icon": "◉",
+      "color": 4283789932,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 13,
+      "name": "Work",
+      "icon": "⌂",
+      "color": 4284709714,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 14,
+      "name": "Travel",
+      "icon": "✦",
+      "color": 4291066437,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 15,
+      "name": "Safety",
+      "icon": "⚙",
+      "color": 4288314191,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 16,
+      "name": "Appliances",
+      "icon": "◆",
+      "color": 4283789932,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 17,
+      "name": "Seasonal",
+      "icon": "♥",
+      "color": 4284709714,
+      "builtIn": true,
+      "hidden": false
+    },
+    {
+      "id": 18,
+      "name": "Other",
+      "icon": "◉",
+      "color": 4291066437,
+      "builtIn": true,
+      "hidden": false
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Air filter",
+      "description": "",
+      "categoryId": 3,
+      "icon": "✓",
+      "expectedDays": 90,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823052591
+    },
+    {
+      "id": 2,
+      "name": "Called Mom",
+      "description": "",
+      "categoryId": 9,
+      "icon": "✓",
+      "expectedDays": null,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823052684
+    },
+    {
+      "id": 3,
+      "name": "Backed up laptop",
+      "description": "",
+      "categoryId": 11,
+      "icon": "✓",
+      "expectedDays": null,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823053173
+    },
+    {
+      "id": 4,
+      "name": "Tire rotation",
+      "description": "",
+      "categoryId": 4,
+      "icon": "✓",
+      "expectedDays": null,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823053301
+    },
+    {
+      "id": 5,
+      "name": "Dental cleaning",
+      "description": "",
+      "categoryId": 6,
+      "icon": "✓",
+      "expectedDays": null,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823053309
+    },
+    {
+      "id": 6,
+      "name": "Flea treatment",
+      "description": "",
+      "categoryId": 10,
+      "icon": "✓",
+      "expectedDays": 30,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823053362
+    },
+    {
+      "id": 7,
+      "name": "Cleaned coffee maker",
+      "description": "",
+      "categoryId": 2,
+      "icon": "✓",
+      "expectedDays": null,
+      "reminderEnabled": false,
+      "notes": "Demo item",
+      "location": "",
+      "person": "",
+      "vehicle": "",
+      "pet": "",
+      "estimatedCostCents": null,
+      "archived": false,
+      "createdAt": 1783823053367
+    }
+  ],
+  "completions": [
+    {
+      "id": 5,
+      "itemId": 5,
+      "completedAt": 1765679053309,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 4,
+      "itemId": 4,
+      "completedAt": 1770863053301,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 1,
+      "itemId": 1,
+      "completedAt": 1776738252591,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 3,
+      "itemId": 3,
+      "completedAt": 1780626253173,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 7,
+      "itemId": 7,
+      "completedAt": 1781144653367,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 6,
+      "itemId": 6,
+      "completedAt": 1781576653362,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 2,
+      "itemId": 2,
+      "completedAt": 1782872652684,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 8,
+      "itemId": 5,
+      "completedAt": 1783823079285,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 9,
+      "itemId": 4,
+      "completedAt": 1783825657076,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    },
+    {
+      "id": 10,
+      "itemId": 1,
+      "completedAt": 1783825894102,
+      "note": "",
+      "costCents": null,
+      "measurement": "",
+      "location": "",
+      "person": "",
+      "serviceProvider": "",
+      "customDetails": ""
+    }
+  ]
+}

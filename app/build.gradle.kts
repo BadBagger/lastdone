@@ -21,8 +21,8 @@ android {
         applicationId = "com.smithware.lastdone"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.1.1-history-widget-reminder"
+        versionCode = 3
+        versionName = "0.1.2-backup-export"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -78,6 +78,7 @@ dependencies {
     ksp(libs.androidx.room.compiler)
     debugImplementation(libs.androidx.compose.ui.tooling)
     testImplementation(libs.junit)
+    testImplementation("org.json:json:20240303")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test:runner:1.6.2")
     androidTestImplementation("androidx.room:room-testing:2.7.2")

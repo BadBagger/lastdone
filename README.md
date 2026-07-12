@@ -12,6 +12,8 @@ LastDone is Smithware Studios' calm, local-first answer to “When did I last do
 - Local demo data, persistent history, interval statistics, archive protection
 - Local reminder scheduling and a quick-completion home-screen widget
 - Backdated completions, a Settings test-reminder action, and a stable live-data widget target
+- System-picker JSON backups with validation and confirmed replacement restore
+- CSV completion-history export with quoted fields
 - Warm cream, moss, amber, copper, and charcoal visual identity
 
 Build with `./gradlew :app:testDebugUnitTest :app:assembleDebug`. Release builds intentionally fail closed unless ignored `keystore.properties` contains a real local signing configuration.
