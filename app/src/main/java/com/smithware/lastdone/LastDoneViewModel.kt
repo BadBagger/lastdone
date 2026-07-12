@@ -11,6 +11,8 @@ class LastDoneViewModel(private val repo:LastDoneRepository,private val store:Se
  fun done(id:Long,date:Long=System.currentTimeMillis(),note:String="",cost:Long?=null,measurement:String="",onSaved:(Long)->Unit={}){viewModelScope.launch{onSaved(repo.complete(id,date,note,cost,measurement))}}
  fun undo(id:Long)=viewModelScope.launch{repo.undoCompletion(id)}
  fun deleteCompletion(r:CompletionRecord)=viewModelScope.launch{repo.deleteCompletion(r)};fun archive(id:Long)=viewModelScope.launch{repo.archive(id)};fun demo()=viewModelScope.launch{repo.demo()};fun finishOnboarding()=viewModelScope.launch{store.finishOnboarding()};fun mode(v:CompletionMode)=viewModelScope.launch{store.setMode(v)};fun dark(v:Boolean)=viewModelScope.launch{store.setDark(v)}
+ fun updateCompletion(r:CompletionRecord)=viewModelScope.launch{repo.updateCompletion(r)}
+ fun duplicateCompletion(r:CompletionRecord)=viewModelScope.launch{repo.duplicateCompletion(r)}
  fun testReminder()=repo.testReminder()
  fun item(id:Long)=repo.item(id);fun itemHistory(id:Long)=repo.history(id)
 }
