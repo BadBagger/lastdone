@@ -21,8 +21,8 @@ android {
         applicationId = "com.smithware.lastdone"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "0.1.0-mvp"
+        versionCode = 2
+        versionName = "0.1.1-history-widget-reminder"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

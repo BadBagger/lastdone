@@ -22,4 +22,5 @@ import kotlinx.coroutines.flow.Flow
  @Query("SELECT * FROM completions ORDER BY completedAt") suspend fun completionsOnce():List<CompletionRecord>
  @Query("SELECT * FROM items WHERE id=:id") suspend fun itemOnce(id:Long):TrackedItem?
  @Query("SELECT MAX(completedAt) FROM completions WHERE itemId=:id") suspend fun lastDone(id:Long):Long?
+ @Query("SELECT i.*, c.name categoryName, c.color categoryColor, MAX(r.completedAt) lastDone, COUNT(r.id) completionCount FROM items i JOIN categories c ON c.id=i.categoryId LEFT JOIN completions r ON r.itemId=i.id WHERE i.archived=0 GROUP BY i.id ORDER BY i.createdAt, i.id LIMIT 1") suspend fun widgetItem():ItemSummary?
 }
